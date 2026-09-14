@@ -7,8 +7,8 @@
 // Thirrja e librarisë sonë të personalizuar
 #include <Infokom.MCU.ESP32.S3.Sensors.h>
 
-const char *WIFI_SSID = "YOUR_WIFI_SSID";
-const char *WIFI_PASS = "YOUR_WIFI_PASSWORD";
+const char *WIFI_SSID = "Shpati";
+const char *WIFI_PASS = "skela2020";
 
 // Konfigurimi NTP (CET - Vlorë, Shqipëri)
 const char *NTP_HOST = "pool.ntp.org";

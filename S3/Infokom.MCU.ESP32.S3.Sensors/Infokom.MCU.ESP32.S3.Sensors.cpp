@@ -1,4 +1,4 @@
-#include "Infokom.S3.Sensors.h"
+#include "Infokom.MCU.ESP32.S3.Sensors.h"
 
 InfokomLightController::InfokomLightController(int ldrPin, int buzzerPin, int threshold, int frequency) {
     _ldrPin = ldrPin;
@@ -9,7 +9,7 @@ InfokomLightController::InfokomLightController(int ldrPin, int buzzerPin, int th
 
 void InfokomLightController::begin() {
     analogSetAttenuation(ADC_11db);
-    ledcAttach(_buzzerPin, _frequency, 8); 
+    //ledcAttach(_buzzerPin, _frequency, 8); 
 }
 
 bool InfokomLightController::isDark() {
